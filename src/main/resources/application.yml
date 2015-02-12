@@ -1,0 +1,11 @@
+server:
+  port: 8888
+management:
+  context-path: /admin
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+security:
+  user:
+    password: '{cipher}fedcbf7b7eb206f84c29baa205a4090546c2b7b59523076958a5ea5d8eddd116'
